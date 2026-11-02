@@ -2,6 +2,8 @@
 
 Pipeline pour le [test technique Artefact](https://github.com/artefactory-ma/test_technique_data_engineer_ma). Il télécharge une période de trajets depuis l'API SODA, conserve les pages CSV brutes dans MinIO, les transforme avec PySpark et expose des agrégats via une API. **Apache Airflow** orchestre les deux étapes du DAG.
 
+Le [sujet original](docs/assignment.md) est conservé dans le dépôt.
+
 ## Architecture
 
 ![Architecture du pipeline Chicago Taxi : Airflow, PySpark, MinIO et FastAPI](docs/images/architecture.png)
